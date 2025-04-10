@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Calibri,sans-serif;
+}
+.btn{
+   background-color: darkslategray;
+   border: none;
+   padding: 10px 30px;
+   color: white;
+   border-radius: 5px;
+   box-shadow: 0 0 10px gray;
+   font-size: 18px;
+   text-decoration: none;
+   margin: 10px 0;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: darkseagreen;
+}
+
+
+.landing{
+    background: white url(images/vacationimg.webp) no-repeat scroll center;
+    background-size: cover;
+    height: 100vh;
+}
+.landing .wrapper{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    color: white;
+}
+.landing .landing-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.landing-header{
+    font-size: 100px;
+    color: lightcyan;
+}
+/* header styling */
+.main-header{
+    background :radial-gradient(darkslategray,teal);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    
+}
+.main-header h1{
+    font-size: 100px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main-nav{
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+   
+}
+.main-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+
+}
+.main-nav a:hover{
+    background-color: lightseagreen;
+    border-radius: 50px;
+    color: white;
+}
+
+.vacation-header{
+    font-size: 70px;
+    color: gray;
+    text-align: center;
+    margin-top: 50px;
+}
+.vacation-text{
+    font-size: 25px;
+    color: darkgray;
+}
+.holidays-section{
+    text-align: center;
+   margin: 100px 0;
+}
+/* places section */
+div img{
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    
+}
+.places-section{
+    text-align: center;
+   
+}
+.places-section .vacation-header{
+    padding-top: 50px;
+}
+/* gallary-section */
+.vacation-gallery{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: gray;
+    padding: 20px;
+   
+}
+.gallary-wrapper{
+  
+   width: 400px;
+   height: 300px;
+   overflow: hidden;
+   border-radius: 5px;
+   box-shadow: 0 0 10px gray;
+   margin: 20px 20px;
+   display: inline-block;
+ 
+
+}
+.gallary-wrapper img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    
+}
+.gallary-wrapper img:hover{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}
+
+/* packages-section */
+
+.packages-section{
+    text-align: center;
+
+}
+.package-card{
+    width: 250px;
+   padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px gray;
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px 10px;
+    
+}
+.package-cards{
+    padding: 20px;
+    
+}
+.package-card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+
+}
+.package-card img:hover{
+    transform: scale(1.2,1.2);
+  
+}
+.packages-section{
+    color: #6e6c6c;
+}
+
+.packages-section .vacation-header{
+    margin-top: 50px;
+}
+
+.packages-section .text{
+    font-size: 18px;
+    color: #9f9b9b;
+}
+
+
+.packages-section .btn{
+    border-radius: 50px;
+}
+
+
+/* footer section */
+.main-footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+}
+.main-footer a{
+    color: teal;
+    text-decoration: none;
+}
